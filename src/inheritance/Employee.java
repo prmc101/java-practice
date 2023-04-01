@@ -8,8 +8,10 @@ public class Employee extends EmpBase{
     int salary;
     String organization;
 
-    public Employee(int eId, String eName) {
+    public Employee(int eId, String eName, int salary, String organization) {
         super(eId, eName);
+        this.salary = salary;
+        this.organization = organization;
     }
 
 
